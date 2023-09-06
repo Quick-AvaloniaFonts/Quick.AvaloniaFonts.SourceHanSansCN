@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0</Version>
+        <Title>Alibaba PuHuiTi fonts for Avalonia</Title>
+        <Description>Alibaba PuHuiTi fonts for Avalonia</Description>
+        <PackageProjectUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.AlibabaPuHuiTi</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.AlibabaPuHuiTi</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\Alibaba-PuHuiTi-Bold.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Heavy.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Light.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Medium.ttf" />
+      <None Remove="Assets\Alibaba-PuHuiTi-Regular.ttf" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Bold.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Bold.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-ExtraLight.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-ExtraLight.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Heavy.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Heavy.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Light.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Light.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Medium.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Medium.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Normal.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Normal.otf</Link>
+      </AvaloniaResource>
+      <AvaloniaResource Include="..\Fonts\SourceHanSansCN-Regular.otf">
+        <Link>Assets\Fonts\SourceHanSansCN-Regular.otf</Link>
+      </AvaloniaResource>
+    </ItemGroup>
+
+</Project>

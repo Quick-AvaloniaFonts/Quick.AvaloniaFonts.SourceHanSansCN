@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TestApp.MainWindow"
+        Title="Quick.AvaloniaFonts.SourceHanSansCN">
+    <ScrollViewer>
+        <StackPanel Orientation="Vertical">
+            <TextBlock FontSize="48">思源黑体</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Thin">Welcome to Avalonia!</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Thin">欢迎来到阿瓦罗尼亚！</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Regular">Welcome to Avalonia!</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Regular">欢迎来到阿瓦罗尼亚！</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Medium">Welcome to Avalonia!</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Medium">欢迎来到阿瓦罗尼亚！</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Bold">Welcome to Avalonia!</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Bold">欢迎来到阿瓦罗尼亚！</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Heavy">Welcome to Avalonia!</TextBlock>
+            <TextBlock FontSize="32" FontWeight="Heavy">欢迎来到阿瓦罗尼亚！</TextBlock>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
