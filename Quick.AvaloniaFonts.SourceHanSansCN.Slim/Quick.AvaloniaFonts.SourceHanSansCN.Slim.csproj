@@ -5,10 +5,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>1.0.0</Version>
-        <Title>Alibaba PuHuiTi fonts for Avalonia</Title>
-        <Description>Alibaba PuHuiTi fonts for Avalonia</Description>
-        <PackageProjectUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.AlibabaPuHuiTi</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.AlibabaPuHuiTi</RepositoryUrl>
+        <Title>SourceHanSansCN fonts for Avalonia</Title>
+        <Description>SourceHanSansCN fonts for Avalonia</Description>
+        <PackageProjectUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.SourceHanSansCN</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Quick-AvaloniaFonts/Quick.AvaloniaFonts.SourceHanSansCN</RepositoryUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
